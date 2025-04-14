@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<ul>
+
+    <!-- First way to loop over an array -->
+    <!-- <li *ngFor="let user of user">
+        {{user.id}} - {{user.userName}}
+    </li> -->
+
+    <!-- Second way to loop over an array , if we use this then do not need to add component ngFor in ts file --> <!-- track $index : index can be replaced with user.id-->
+     @for (user of user; track $index){
+        <li>
+            {{user.id}} - {{user.userName}}
+        </li>
+    }
+</ul>

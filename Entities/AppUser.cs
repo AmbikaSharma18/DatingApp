@@ -48,4 +48,16 @@ public int IdCheck { get; set; }
 In development mode, settings are read from the appsettings.Development.json file. In production , testing and staging mode, settings are read from the appsettings.json file.
 
 Git ignore files - when we use any compilier then some dll files are generated. So we need to add those files to .gitignore file.
+
+Oninit - is a special function that runs when something starts.
+It’s like a setup or welcome routine — it gets things ready right when something is born or starts working.
+*/
+
+// Angular project
+/*
+to run the project first redirect to client folder 
+then if any security error then run the command - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+then run the command - ng serve
+
+its a case sensitive language
 */
